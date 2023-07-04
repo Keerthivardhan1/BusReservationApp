@@ -60,6 +60,25 @@
             android:textSize="16sp"
             android:textStyle="normal|bold"></TextView>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="563dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:id="@+id/avs"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="seat available"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#ED8181"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"></TextView>
+
         <Button
             android:id="@+id/book"
             android:layout_width="156dp"
@@ -73,24 +92,6 @@
             android:textSize="20sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"></Button>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="563dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="5dp">
-
-
-        <TextView
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
-            android:padding="5dp"
-            android:text="seat available"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="#ED8181"
-            android:textSize="16sp"
-            android:textStyle="normal|bold"></TextView>
 
         <!--<TextView-->
         <!--    android:id="@+id/fp"-->
