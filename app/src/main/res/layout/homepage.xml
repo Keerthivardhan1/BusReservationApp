@@ -25,14 +25,15 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="401dp"
-                    android:layout_height="39dp"
+                    android:layout_width="386dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:fontFamily="@font/poppins_extrabold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:letterSpacing="0.2"
                     android:text="Bus Tickets"
                     android:textAlignment="center"
-                    android:textColor="#F2BED1"
-                    android:textSize="24sp" />
+                    android:textColor="@color/purple_700"
+                    android:textSize="34sp" />
 
                 <Spinner
                     android:id="@+id/from"
@@ -57,7 +58,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="70dp"
                     android:layout_marginTop="200dp"
-                    android:text="Search Buses" />
+                    android:letterSpacing="0.2"
+                    android:text="Search Buses"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/poppins_medium"/>
 
 
             </RelativeLayout>
