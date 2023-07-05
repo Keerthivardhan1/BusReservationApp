@@ -6,36 +6,23 @@
     android:layout_height="match_parent"
     android:backgroundTint="#005673D0">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="199dp"
-        android:layout_height="154dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035"
-        app:srcCompat="@drawable/admin"
-        tools:ignore="ContentDescription"
-        tools:srcCompat="@drawable/mad_pic2" />
-
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="205dp"
-        android:layout_height="34dp"
+        android:layout_width="292dp"
+        android:layout_height="92dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="SignUp"
+        android:text="Sign Up"
         android:textAlignment="center"
-        android:textColor="#F2BED1"
-        android:textSize="24sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#E37474"
+        android:textSize="48sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
+        app:layout_constraintVertical_bias="0.031"
         tools:ignore="HardcodedText,TextSizeCheck" />
 
     <EditText
@@ -49,10 +36,10 @@
         android:textColorHint="#090909"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412"
+        app:layout_constraintVertical_bias="0.24"
         tools:ignore="HardcodedText,TouchTargetSizeCheck" />
 
     <EditText
@@ -65,10 +52,10 @@
         android:textColorHint="#090808"
         app:layout_constraintBottom_toBottomOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.293"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.542"
+        app:layout_constraintVertical_bias="0.389"
         tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
 
     <EditText
@@ -78,13 +65,13 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textAlignment="viewStart"
         android:textColorHint="#090808"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.606"
         tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
 
     <Button
@@ -93,7 +80,11 @@
         android:layout_width="136dp"
         android:layout_height="40dp"
         android:background="#ED8181"
-        android:text="SIGNUP"
+        android:shadowRadius="20"
+        android:text="S I G N  U P"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -139,9 +130,9 @@
         android:textColorHint="#0C0C0C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.308"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701"
+        app:layout_constraintVertical_bias="0.628"
         tools:ignore="Autofill,HardcodedText,TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
