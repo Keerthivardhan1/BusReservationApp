@@ -62,13 +62,21 @@ class registeration1:AppCompatActivity() {
             // N e e d s checks or validate the user info ...
 //            println("pho 1 == ${pho1::class.java}  " )
 
-            registerWithEmailAndPassword(email , pass1 , auth  , name1 , pho1 , isEmp);
+      if(check(name)&&check(pass1)&&check(email1)&&check(pho1)){
+            registerWithEmailAndPassword(email , pass1 , auth  , name1 , pho1 , isEmp);}
+      else{
+Toast.makeText(this,"please ensure fields to be non empty!!",Toast.LENGTH_LONG).show()}
         }
 
 
 
     }
-
+fun check(field1:String):Boolean{
+var x=field1.trim()
+if(x==""){
+return false}
+else{return true}
+}
 
     private fun registerWithEmailAndPassword(
         email: String,
