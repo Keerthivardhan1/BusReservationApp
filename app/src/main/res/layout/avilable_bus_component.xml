@@ -11,8 +11,8 @@
     android:padding="25dp">
 
     <LinearLayout
-        android:layout_width="360dp"
-        android:layout_height="69dp"
+        android:layout_width="303dp"
+        android:layout_height="53dp"
         android:orientation="horizontal">
 
 
@@ -27,71 +27,71 @@
 
         <TextView
             android:id="@+id/st"
-            android:layout_width="88dp"
+            android:layout_width="74dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
             android:padding="5dp"
             android:text="3:00AM"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="normal|bold"></TextView>
 
         <TextView
             android:id="@+id/et"
-            android:layout_width="95dp"
+            android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="30dp"
             android:padding="5dp"
             android:text=" 5:00 PM"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="normal|bold"></TextView>
 
 
         <TextView
             android:id="@+id/price"
-            android:layout_width="99dp"
+            android:layout_width="81dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:padding="5dp"
             android:text="300RS"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="normal|bold"></TextView>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="354dp"
-        android:layout_height="59dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="5dp">
 
 
         <TextView
             android:id="@+id/avs"
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:padding="5dp"
             android:text="seat available"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="#ED8181"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:textStyle="normal|bold"></TextView>
 
         <Button
             android:id="@+id/book"
-            android:layout_width="156dp"
+            android:layout_width="120dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="25dp"
             android:backgroundTint="#ED8181"
             android:letterSpacing="1"
             android:maxWidth="100dp"
             android:padding="5dp"
             android:text="Book"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:textStyle="bold"
             app:cornerRadius="15dp"></Button>
 

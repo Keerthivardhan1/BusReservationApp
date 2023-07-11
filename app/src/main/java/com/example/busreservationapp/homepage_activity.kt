@@ -162,11 +162,15 @@ class homepage_activity : AppCompatActivity()  {
 //        fromplaceTV.text = ab.FromPlace
 //        toPlaceTV.text = ab.ToPlac
 
+        val bundle = Bundle()
+//        bundle.putSerializable("busMap", busMap)
+
         bookbtn.setOnClickListener {
 
             val intent = Intent(this, BookingPage::class.java)
             intent.putExtra("id", ab.id)
-            intent.putExtra("bus" , from.text.toString())
+            intent.putExtra("bus" , result1)
+//            intent.putExtras("busMap" , bundle)
             startActivity(intent)
         }
 
